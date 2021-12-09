@@ -45,11 +45,21 @@ main {
 }
 
 h1 {
-  margin-top: 40%;
+  font-weight: 700;
+  margin-top: 10%;
+}
+
+.highlight-text {
+  color: #f84a54;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 15%;
 }
 
 footer {
-  margin-top: 25%;
+  margin-top: 15%;
 }
 
 @media (min-width: 768px) {
@@ -57,8 +67,8 @@ footer {
     text-align: left;
   }
 
-  h1 {
-    margin-top: 25%;
+  h2 {
+    font-size: 25px;
   }
 
   footer {
@@ -70,6 +80,9 @@ footer {
   .logo {
     width: 7%;
   }
+}
+
+@media (min-width: 1200px) {
   span.hide {
     display: block;
   }
